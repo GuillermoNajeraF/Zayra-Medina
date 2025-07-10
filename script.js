@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }, 3000);
     }, 1000);
     function createFloatingHearts() {
-        for (let i = 0; i < 30; i++) {
+        for (let i = 0; i < 23; i++) {
             const heart = document.createElement('div');
             heart.innerHTML = '❤️';
             heart.classList.add('floating-heart');
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     function createInitialHearts() {
-        for (let i = 0; i < 30; i++) {
+        for (let i = 0; i < 23; i++) {
             setTimeout(() => {
                 const heart = document.createElement('div');
                 heart.innerHTML = '❤️';
